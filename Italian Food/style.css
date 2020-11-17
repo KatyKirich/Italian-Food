@@ -44,18 +44,21 @@
      width: 10vw;
     background-color: #FFFFFF; 
 }
+.box__menu-wdt90{
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
 .title{
     font-family: "Kristi";
     font-size: 8rem;
 }
 .box__title{
     width: 30%;
-    margin: 5vw;
 }
 .box__spagetti{
     width: 50%;
     position: relative;
-    left: 15%;
 }
 .box__title__crsv-bld{
     letter-spacing: 5px;
@@ -102,4 +105,15 @@ button{
     position: absolute;
     bottom: -50%;
     right: 0%;
+}
+.color-grey{
+    color: #222328;
+}
+.pizza__title{
+    text-align: center;
+}
+.pizza__button{
+    flex-wrap: wrap;
+    color: #FFFFFF;
+    background-color: #2E3034 ;
 }

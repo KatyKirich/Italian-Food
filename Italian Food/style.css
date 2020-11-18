@@ -1,119 +1,146 @@
-*{
-    margin: 0%;
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
-.crsr__p{
-    cursor: pointer;
+.crsr__p {
+  cursor: pointer;
 }
-.header{
-    height: 100vh;
-    color: #FFFFFF;
-    padding-top: 3vh;
-    background-image: url(./img/Background.png);
-    background-size: cover;
+.header {
+  height: 100vh;
+  color: #ffffff;
+  padding-top: 3vh;
+  background-image: url(./img/Background.png);
+  background-size: cover;
 }
-.box__menu{
-    display: flex;
-    align-items: center;
+.box__menu {
+  display: flex;
+  align-items: center;
 }
-.menu{
-    width: 80%;
+.menu {
+  width: 80%;
 }
-.menu__item{
-    margin-right: 5vw;
-    font-weight: bold;
-    letter-spacing: 4px;
+.menu__item {
+  margin-right: 5vw;
+  font-weight: bold;
+  letter-spacing: 4px;
 }
-.menu__list{
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
+.menu__list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
 }
-.menu__form{
-    width: 15vw;
-    height: 5vh;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    justify-content: space-around;
+.menu__form {
+  width: 15vw;
+  height: 5vh;
+  background-color: #ffffff;
+  border-radius: 20px;
+  justify-content: space-around;
 }
-.menu__search{
-    border: none;
-    outline: none;
-     width: 10vw;
-    background-color: #FFFFFF; 
+убрать
+  стили
+  за
+  бордер
+  и
+  видтс
+  и
+  стилизовать
+  сам
+  инпут
+  а
+  картинку
+  бкграунд
+  потом
+  позишн
+  переместить
+  .menu__search {
+  border: none;
+  outline: none;
+  width: 10vw;
+  background-color: #ffffff;
 }
-.box__menu-wdt90{
+.box__menu-wdt90 {
+  width: 90%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.title {
+  font-family: "Kristi";
+  font-size: 8rem;
+}
+.box__title {
+  width: 30%;
+}
+.box__spagetti {
+  width: 50%;
+  position: relative;
+}
+.box__title__crsv-bld {
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.box__title__crsv {
+  font-style: italic;
+}
+button {
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+  outline: none;
+  cursor: pointer;
+}
+.box__title__button {
+  width: 12vw;
+  line-height: 3vh;
+  font-size: 20px;
+  color: #2e3034;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.box__title__button:hover {
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+.m-top-5vh {
+  margin-top: 5vh;
+}
+.m-top-2vh {
+  margin-top: 2vh;
+}
+.sous__pstn {
+  position: absolute;
+  top: 72%;
+  left: -25%;
+}
+.bletter__pstn {
+  position: absolute;
+  bottom: -50%;
+  right: 0%;
+}
+.color-grey {
+  color: #222328;
+}
+.pizza__title {
+  text-align: center;
+}
+.pizza__button {
+  flex-wrap: wrap;
+  color: #ffffff;
+  background-color: #2e3034;
+}
+
+@media (max-width: 960px) {
+  .spagetti {
+    max-width: 600px;
     width: 90%;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-.title{
-    font-family: "Kristi";
-    font-size: 8rem;
-}
-.box__title{
-    width: 30%;
-}
-.box__spagetti{
-    width: 50%;
-    position: relative;
-}
-.box__title__crsv-bld{
-    letter-spacing: 5px;
-    font-weight: bold;
-    font-style: italic;
-    text-transform: uppercase;
-}
-.box__title__crsv{
-    font-style: italic;
-}
-button{
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 4px;
-    outline: none;
-    cursor: pointer;
-}
-.box__title__button{
-    width: 12vw;
-    line-height: 3vh;
-    font-size: 20px;
-    color:#2E3034;
-    background-color: #FFFFFF;
-    border: 2px solid #FFFFFF;
-}
-.box__title__button:hover{
-    color:#FFFFFF;
-    background-color: transparent;
-    border: 2px solid #FFFFFF;
-}
-.m-top-5vh{
-    margin-top: 5vh;
-}
-.m-top-2vh{
-    margin-top: 2vh;
-}
-.sous__pstn{
-    position: absolute;
-    top: 72%;
-    left: -25%;
-}
-.bletter__pstn{
-    position: absolute;
-    bottom: -50%;
-    right: 0%;
-}
-.color-grey{
-    color: #222328;
-}
-.pizza__title{
-    text-align: center;
-}
-.pizza__button{
-    flex-wrap: wrap;
-    color: #FFFFFF;
-    background-color: #2E3034 ;
+    height: auto;
+  }
+  .bletter__pstn {
+    display: none;
+  }
 }

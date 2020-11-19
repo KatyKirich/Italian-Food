@@ -9,8 +9,8 @@
 .color-grey {
   color: #222328;
 }
-.m-0a {
-  margin: 0 auto;
+.h-100vh{
+  height: 100vh;
 }
 .header {
   height: 100vh;
@@ -113,6 +113,16 @@ button {
   right: 0%;
 }
 @media (max-width: 960px) {
+  .box__title {
+    width: 40%;
+  }
+  .title {
+    font-size: 6rem;
+  }
+  .box__title__button {
+    width: 15vw;
+    line-height: 2vh;
+  }
   .spagetti {
     max-width: 600px;
     width: 90%;
@@ -127,11 +137,51 @@ button {
     display: none;
   }
 }
+@media (max-width: 560px) {
+  .box__title {
+    width: 90%;
+  }
+  .spagetti {
+    display: none;
+  }
+  .sous__pstn {
+    display: none;
+  }
+  .bletter__pstn {
+    display: none;
+  }
+  .box__title__button {
+    width: 50vw;
+    line-height: 2vh;
+  }
+  #box__menu{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  #menu__list{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
 .pizza__title {
   text-align: center;
 }
+.button__center{
+  display: flex;
+  justify-content: center;
+}
 .pizza__button {
-  flex-wrap: wrap;
+  width: 17vw;
+  height: 5vh;
+  margin: 8vh auto;
   color: #ffffff;
   background-color: #2e3034;
+  border: 2px solid #2e3034;
+}
+.pizza__button:hover{
+  color:#2e3034;
+  background-color: transparent;
+  border:  2px solid #2e3034;
 }

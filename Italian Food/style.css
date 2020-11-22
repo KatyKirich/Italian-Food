@@ -193,6 +193,7 @@ button {
 }
 .pizza__button {
   width: 17vw;
+  font-size: 20px;
   height: 5vh;
   margin: 8vh auto;
   color: #ffffff;
@@ -203,4 +204,77 @@ button {
   color: #2e3034;
   background-color: transparent;
   border: 2px solid #2e3034;
+}
+.button__center-pdng {
+  padding: 5vh;
+}
+.sale {
+  width: 80%;
+  margin: 5vh auto;
+}
+.box__menu-jstcont {
+  justify-content: space-around;
+}
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  width: 40%;
+}
+.line {
+  width: 8vw;
+  height: 5px;
+  background-color: #fff;
+  margin: 5vh auto 0;
+}
+.pizza {
+  position: relative;
+}
+.pizza__bletter {
+  width: 98%;
+  position: absolute;
+  right: 1%;
+  bottom: 30%;
+}
+.img__pizza {
+  width: 40%;
+  position: absolute;
+  left: 42%;
+}
+.img__piece {
+  width: 25%;
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+.information {
+  width: 80%;
+  margin: 5vh auto 0;
+}
+.subtitle {
+  width: 80%;
+  margin: 20vh auto 10vh;
+}
+.title__inform {
+  font-family: "Kristi";
+  font-size: 5rem;
+}
+/* .email__bletter {
+  position: absolute;
+} */
+.email__title-fnts {
+  font-size: 8rem;
+}
+.email__subtitle {
+  width: 70%;
+}
+.email__form {
+  width: 30%;
+  height: 6vh;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #fff;
+  background: #fff;
+  outline: none;
+  position: relative;
 }

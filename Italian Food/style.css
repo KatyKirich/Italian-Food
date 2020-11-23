@@ -189,10 +189,10 @@ button {
   justify-content: center;
 }
 .pizza__button {
-  width: 17vw;
+  width: 250px;
   font-size: 20px;
-  height: 5vh;
-  margin: 8vh auto;
+  height: 3rem;
+  margin: 4rem auto;
   color: #ffffff;
   background-color: #2e3034;
   border: 2px solid #2e3034;
@@ -203,11 +203,11 @@ button {
   border: 2px solid #2e3034;
 }
 .button__center-pdng {
-  padding: 5vh;
+  padding: 3rem;
 }
 .sale {
   width: 80%;
-  margin: 5vh auto;
+  margin: 4rem auto;
 }
 .box__menu-jstcont {
   justify-content: space-around;
@@ -222,7 +222,7 @@ button {
   width: 8vw;
   height: 5px;
   background-color: #fff;
-  margin: 5vh auto 0;
+  margin: 3rem auto 0;
 }
 .pizza {
   position: relative;
@@ -246,11 +246,11 @@ button {
 }
 .information {
   width: 80%;
-  margin: 5vh auto 0;
+  margin: 3rem auto 0;
 }
 .subtitle {
   width: 80%;
-  margin: 20vh auto 10vh;
+  margin: 15rem auto 10rem;
 }
 .title__inform {
   font-family: "Kristi";
@@ -261,38 +261,59 @@ button {
 } */
 .email__title-fnts {
   font-size: 6rem;
+  padding-top: 4rem;
+}
 }
 .email__subtitle {
   width: 70%;
 }
-.email__form{
+.email__form {
   position: relative;
   width: 50%;
   top: 50%;
   left: 25%;
+  padding-bottom: 8rem;
+  padding-top: 3rem;
 }
 .email__input {
   width: 100%;
-  height: 6vh;
-  padding:0 150px 0 15px;
+  height: 3rem;
+  padding: 0 150px 0 15px;
   border-radius: 42px;
   border: 2px solid #fff;
   background: #fff;
   outline: none;
   position: relative;
 }
-.email__button{
+.email__button {
   position: absolute;
   right: 0;
-  height: 6vh;
+  height: 3rem;
   width: 148px;
   color: #ffffff;
   background-color: #2e3034;
   border: 2px solid #2e3034;
   font-size: 20px;
 }
-.email__button:hover{
+.email__button:hover {
   color: #2e3034;
   background-color: transparent;
   border: 2px solid #2e3034;
+}
+ul{
+  list-style: none;
+}
+.circle{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #2e3034;
+}
+.icon{
+  display: flex;
+  justify-content: space-between;
+}
+.ftr__inf{
+  width: 40%;
+  margin-right: 5rem;
 }

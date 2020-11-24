@@ -101,6 +101,9 @@ button {
 .m-top-2vh {
   margin-top: 2rem;
 }
+.pad-2{
+  padding: 2rem;
+}
 .sous__pstn {
   position: absolute;
   top: 72%;
@@ -118,16 +121,29 @@ button {
 .w-333{
   width: 333px;
 }
-@media (max-width: 960px) {
-  .box__title {
-    width: 40%;
+@media (max-width: 1600px){
+  .title {
+    font-size: 7rem;
   }
+}
+@media (max-width: 1400px){
   .title {
     font-size: 6rem;
   }
-  .box__title__button {
-    width: 200px;
-    line-height: 2rem;
+  .spagetti {
+    max-width: 600px;
+    width: 90%;
+    height: auto;
+  }
+  .sous__pstn {
+    max-width: 600px;
+    width: 40%;
+    height: auto;
+  }
+}
+@media (max-width: 1200px){
+  .title {
+    font-size: 5rem;
   }
   .spagetti {
     max-width: 600px;
@@ -140,25 +156,20 @@ button {
     height: auto;
   }
   .bletter__pstn {
-    display: none;
+   width: 100%;
   }
   #treepizza {
     flex-wrap: wrap;
     justify-content: center;
   }
+  
 }
-@media (max-width: 560px) {
+@media (max-width: 900px) {
   .box__title {
-    width: 90%;
+    width: 40%;
   }
-  .spagetti {
-    display: none;
-  }
-  .sous__pstn {
-    display: none;
-  }
-  .bletter__pstn {
-    display: none;
+  .title {
+    font-size: 4rem;
   }
   .box__title__button {
     width: 200px;
@@ -173,8 +184,18 @@ button {
   .menu {
     width: 100%;
   }
-  .title {
-    font-size: 4rem;
+  .spagetti {
+    max-width: 600px;
+    width: 90%;
+    height: auto;
+  }
+  .sous__pstn {
+    max-width: 600px;
+    width: 40%;
+    height: auto;
+  }
+  .bletter__pstn {
+    display: none;
   }
   #box__menu {
     display: grid;
@@ -186,6 +207,28 @@ button {
     gap: 1vh;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
+  }
+
+}
+@media (max-width: 600px) {
+  .box__title {
+    width: 90%;
+  }
+  .spagetti {
+    display: none;
+  }
+  .sous__pstn {
+    display: none;
+  }
+  .bletter__pstn {
+    display: none;
+  }
+  .img-psn{
+    width: 70%;
+  }
+  #text{
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 .pizza__title {

@@ -111,6 +111,10 @@ button {
   bottom: -50%;
   right: 0%;
 }
+.img-psn{
+  margin: 0 auto;
+  display: block;
+}
 .w-333{
   width: 333px;
 }

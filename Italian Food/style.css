@@ -234,14 +234,14 @@ button {
   bottom: 30%;
 }
 .img__pizza {
-  width: 40%;
+  width: 38%;
   position: absolute;
   left: 42%;
 }
 .img__piece {
-  width: 25%;
+  width: 20%;
   position: absolute;
-  left: 20%;
+  left: 25%;
   top: 80%;
 }
 .information {
@@ -256,14 +256,16 @@ button {
   font-family: "Kristi";
   font-size: 5rem;
 }
-/* .email__bletter {
+.email__bletter {
+  width: 80%;
   position: absolute;
-} */
+  bottom: -25%;
+}
 .email__title-fnts {
   font-size: 6rem;
   padding-top: 4rem;
 }
-}
+
 .email__subtitle {
   width: 70%;
 }
@@ -272,7 +274,7 @@ button {
   width: 50%;
   top: 50%;
   left: 25%;
-  padding-bottom: 8rem;
+  padding-bottom: 10rem;
   padding-top: 3rem;
 }
 .email__input {
@@ -300,18 +302,41 @@ button {
   background-color: transparent;
   border: 2px solid #2e3034;
 }
+.contact{
+  height: 30rem;
+  justify-content: space-around;
+}
 ul{
   list-style: none;
+  padding: 0;
+}
+li{
+  cursor: pointer;
 }
 .circle{
-  width: 3rem;
-  height: 3rem;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   background-color: #2e3034;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 .icon{
   display: flex;
   justify-content: space-between;
+}
+.inst{
+  background-image: url(./img/Instagram@1X.png);
+}
+.twi{
+  background-image: url(./img/Twitter@1X.png);
+}
+.fb{
+  background-image: url(./img/Facebook@1X.png);
+}
+.wa{
+  background-image: url(./img/WhatsApp@1X.png);
 }
 .ftr__inf{
   width: 40%;

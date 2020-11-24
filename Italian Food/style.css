@@ -111,6 +111,9 @@ button {
   bottom: -50%;
   right: 0%;
 }
+.w-333{
+  width: 333px;
+}
 @media (max-width: 960px) {
   .box__title {
     width: 40%;
@@ -303,7 +306,9 @@ button {
   border: 2px solid #2e3034;
 }
 .contact{
-  height: 30rem;
+  display: flex;
+  height: 25rem;
+  margin-top: 10rem;
   justify-content: space-around;
 }
 ul{

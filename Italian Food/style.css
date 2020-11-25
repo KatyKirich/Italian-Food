@@ -101,7 +101,7 @@ button {
 .m-top-2vh {
   margin-top: 2rem;
 }
-.pad-2{
+.pad-2 {
   padding: 2rem;
 }
 .sous__pstn {
@@ -114,11 +114,11 @@ button {
   bottom: -50%;
   right: 0%;
 }
-.img-psn{
+.img-psn {
   margin: 0 auto;
   display: block;
 }
-.w-333{
+.w-333 {
   width: 333px;
 }
 
@@ -168,7 +168,7 @@ button {
 .pizza {
   position: relative;
 }
-.box__pizza{
+.box__pizza {
   width: 100%;
 }
 .pizza__bletter {
@@ -213,6 +213,9 @@ button {
 .email__subtitle {
   width: 70%;
 }
+.email {
+  display: flex;
+}
 .email__form {
   position: relative;
   width: 50%;
@@ -246,20 +249,20 @@ button {
   background-color: transparent;
   border: 2px solid #2e3034;
 }
-.contact{
+.contact {
   display: flex;
   height: 25rem;
   margin-top: 10rem;
   justify-content: space-around;
 }
-ul{
+ul {
   list-style: none;
   padding: 0;
 }
-li{
+li {
   cursor: pointer;
 }
-.circle{
+.circle {
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -268,27 +271,28 @@ li{
   background-repeat: no-repeat;
   cursor: pointer;
 }
-.icon{
+.icon {
   display: flex;
   justify-content: space-between;
+  width: 15rem;
 }
-.inst{
+.inst {
   background-image: url(img/Instagram@1X.png);
 }
-.twi{
+.twi {
   background-image: url(img/Twitter@1X.png);
 }
-.fb{
+.fb {
   background-image: url(img/Facebook@1X.png);
 }
-.wa{
+.wa {
   background-image: url(img/WhatsApp@1X.png);
 }
-.ftr__inf{
+.ftr__inf {
   width: 40%;
   margin-right: 5rem;
 }
-@media (max-width: 1600px){
+@media (max-width: 1600px) {
   .title {
     font-size: 7rem;
   }
@@ -296,7 +300,7 @@ li{
     top: 70%;
   }
 }
-@media (max-width: 1400px){
+@media (max-width: 1400px) {
   .title {
     font-size: 6rem;
   }
@@ -311,7 +315,7 @@ li{
     height: auto;
   }
 }
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .title {
     font-size: 5rem;
   }
@@ -326,9 +330,9 @@ li{
     height: auto;
   }
   .bletter__pstn {
-   width: 100%;
+    width: 100%;
   }
-  .pizza{
+  .pizza {
     height: 70vh;
   }
   .img__piece {
@@ -338,7 +342,9 @@ li{
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+  #email {
+    height: auto !important;
+  }
 }
 @media (max-width: 900px) {
   .box__title {
@@ -373,11 +379,14 @@ li{
   .bletter__pstn {
     display: none;
   }
-  .pizza{
+  .pizza {
     height: 50vh !important;
   }
   .img__piece {
     top: 90%;
+  }
+  .email__bletter {
+    display: none;
   }
   #box__menu {
     display: grid;
@@ -390,10 +399,9 @@ li{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
   }
-
 }
 @media (max-width: 600px) {
-  .header{
+  .header {
     height: auto;
   }
   .spagetti {
@@ -405,21 +413,21 @@ li{
   .bletter__pstn {
     display: none;
   }
-  .img-psn{
+  .img-psn {
     width: 70%;
   }
-  .box__title{
+  .box__title {
     width: 100%;
     text-align: center;
     padding-bottom: 4rem;
   }
-  .w-30{
+  .w-30 {
     width: 90%;
   }
   .w-40 {
     width: 70%;
   }
-  .pizza__bletter{
+  .pizza__bletter {
     display: none;
   }
   .subtitle {
@@ -428,22 +436,27 @@ li{
   .img__piece {
     top: 80%;
   }
-  #text{
+  #text {
     flex-wrap: wrap;
     justify-content: center;
   }
-  #spagetti{
+  #spagetti {
     display: none;
   }
-  #sale{
+  #sale {
     flex-direction: column;
   }
-  #sale2{
+  #sale2 {
     flex-direction: column-reverse;
   }
 }
-@media (max-width: 500px){
-  .pizza{
+@media (max-width: 500px) {
+  .pizza {
     height: 60vh !important;
+  }
+}
+@media (max-width: 170px) {
+  .img__piece {
+    top: 95%;
   }
 }

@@ -170,6 +170,11 @@ button {
 }
 .box__pizza {
   width: 100%;
+  height: auto;
+}
+.position{
+  height: 80vh;
+  position: relative;
 }
 .pizza__bletter {
   width: 98%;
@@ -178,18 +183,15 @@ button {
   bottom: 30%;
 }
 .img__pizza {
-  width: 70%;
-  position: relative;
+  width: 40%;
+  position: absolute;
   left: 42%;
-  background-image: url(./img/Big\ pizza.png);
-  background-repeat: no-repeat;
 }
 .img__piece {
-  position: absolute;
-  left: 25%;
-  top: 80%;
-  background-image: url(./img/Pizza\ piece.png);
-  background-repeat: no-repeat;
+  width: 20%;
+    position: absolute;
+    left: 23%;
+    top: 60%;
 }
 .information {
   width: 80%;
@@ -299,9 +301,6 @@ li {
   .title {
     font-size: 7rem;
   }
-  .img__piece {
-    top: 70%;
-  }
 }
 @media (max-width: 1400px) {
   .title {
@@ -316,6 +315,9 @@ li {
     max-width: 600px;
     width: 40%;
     height: auto;
+  }
+  .position {
+    height: 60vh;
   }
 }
 @media (max-width: 1200px) {
@@ -338,9 +340,10 @@ li {
   .pizza {
     height: 70vh;
   }
-  .img__piece {
-    top: 80%;
-  }
+  
+  /* .img__piece {
+    top: 45%;
+  } */
   #treepizza {
     flex-wrap: wrap;
     justify-content: center;
@@ -385,9 +388,12 @@ li {
   .pizza {
     height: 50vh !important;
   }
-  .img__piece {
-    top: 90%;
+  .position {
+    height: 40vh;
   }
+  /* .img__piece {
+    top: 90%;
+  } */
   .email__bletter {
     display: none;
   }
@@ -436,8 +442,22 @@ li {
   .subtitle {
     margin: 5rem auto 3rem;
   }
-  .img__piece {
+  .position {
+    height: 25vh;
+  }
+  .email__button{
+    width: 100px;
+    height: 1.5rem;
+    font-size: 10px;
+  }
+  .email__input{
+    height: 1.5rem;
+  }
+  /* .img__piece {
     top: 80%;
+  } */
+  footer{
+    flex-wrap: wrap;
   }
   #text {
     flex-wrap: wrap;
@@ -456,10 +476,5 @@ li {
 @media (max-width: 500px) {
   .pizza {
     height: 60vh !important;
-  }
-}
-@media (max-width: 170px) {
-  .img__piece {
-    top: 95%;
   }
 }

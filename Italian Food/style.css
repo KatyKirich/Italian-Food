@@ -178,15 +178,18 @@ button {
   bottom: 30%;
 }
 .img__pizza {
-  width: 38%;
+  width: 70%;
   position: relative;
   left: 42%;
+  background-image: url(./img/Big\ pizza.png);
+  background-repeat: no-repeat;
 }
 .img__piece {
-  width: 20%;
   position: absolute;
   left: 25%;
   top: 80%;
+  background-image: url(./img/Pizza\ piece.png);
+  background-repeat: no-repeat;
 }
 .information {
   width: 80%;
